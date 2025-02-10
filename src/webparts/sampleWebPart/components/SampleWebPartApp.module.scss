@@ -1,0 +1,80 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+:global{
+  @import '@fluentui/react/dist/css/fabric.css';
+}
+
+ @font-face {
+   font-family: "OswaldLight";
+   src: url('./assets/Oswald-Light.ttf');
+ }
+
+ @font-face {
+   font-family: "OswaldBold";
+   src: url('./assets/Oswald-Bold.ttf');
+ }
+
+ @font-face {
+   font-family: "Oswald";
+   src: url('./assets/Oswald-Medium.ttf');
+ }
+
+ .container {
+   //max-width: 700px;
+   margin: 0px auto;
+   font-family: "OswaldLight";
+   //box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+ }
+
+ .pageTitle {
+   margin-top: 40px;
+   font-weight: 900;
+   display: block;
+   font-family: "OswaldBold", Arial, Helvetica, sans-serif;
+   font-size: 32px;
+   line-height: 40px;
+   color: #68676c;
+ }
+
+
+ .smallTitle {
+   display: block;
+   font-size: 16px;
+   line-height: 20px;
+   color: rgb(104, 103, 108);
+   font-weight: 500;
+ }
+
+
+ .NavButton {
+   width: 200px;
+   margin: 2px;
+   border: 1px solid rgb(138, 136, 134);
+ }
+
+ .NavButtonSelected {
+   border-bottom: 5px solid orange;
+   color: darkblue;
+ }
+
+ .Footer {
+   padding: 10px !important;
+   text-align: center;
+   color: #67676b;
+   font-size: 14px;
+   font-family: "OswaldLight", Arial, Helvetica, sans-serif;
+   padding: 10px 0 0px;
+   margin-top: 0px;
+   border-top: 1px solid #949598;
+ }
+
+ .rowIndicatorOnSave {
+   width: 5px;
+   -webkit-transition: background-color 1000ms linear;
+   -ms-transition: background-color 1000ms linear;
+   transition: background-color 1000ms linear;
+   //background-color: red;
+   background-repeat: no-repeat;
+   background-size: 10px 100%;
+ }
+
+                
